@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
-
-/* font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif; */
-html{
+html {
     height: 100%;
 }
 
@@ -12,21 +9,12 @@ body {
     height: 100%;
 }
 
-main{
+main {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/* .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: fit-content(33%) 66%;
-    margin: 20px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 5%;
-} */
 
 .container {
     display: grid;
@@ -36,12 +24,11 @@ main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 5%;
     max-width: 900px;
-} 
+}
 
-.one
-{
-  height: 100%;
-  width: 100%;
+.one {
+    height: 100%;
+    width: 100%;
 }
 
 .one img {
@@ -77,36 +64,36 @@ img#desktop {
 
 .titlePerfume {
     font-family: 'Fraunces', serif;
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 26px;
     margin: 1Opx 0px;
 }
 
-.descriptor{
+.descriptor {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
     font-weight: 200;
     font-size: 14px;
 }
 
-.price{
+.price {
     font-family: 'Montserrat', sans-serif;
 }
 
-#promo{
+#promo {
     font-size: 35px;
     font-weight: bold;
     color: #4D7864;
 }
 
-#realPrice{
+#realPrice {
     margin-left: 15px;
     font-size: 20px;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
 }
 
-button{
+button {
     font-family: 'Fraunces', serif;
     font-weight: bold;
     font-size: 20px;
@@ -120,40 +107,40 @@ button{
     border: 1px solid #4D7864;
 }
 
-button>img{
+button>img {
     padding-right: 10px;
 }
 
-button:hover{
+button:hover {
     background-color: #243E31;
     cursor: pointer;
 }
 
 
 @media screen and (max-width: 375px) {
-   
+
     .cat {
         font-size: 14px;
     }
-    
+
     .titlePerfume {
         font-size: 20px;
     }
-    
-    .descriptor{
+
+    .descriptor {
         font-size: 14px;
     }
 
-    #promo{
+    #promo {
         font-size: 18px;
     }
-    
-    #realPrice{
+
+    #realPrice {
         margin-left: 8px;
         font-size: 10px;
     }
 
-    button{
+    button {
         font-size: 12px;
         background-color: #4D7864;
         /* haut | droit | bas | gauche */
@@ -190,13 +177,13 @@ button:hover{
     .cat {
         font-size: 20px;
     }
-    
+
     .titlePerfume {
         font-size: 40px;
         margin: 3px 0px;
     }
-    
-    .descriptor{
+
+    .descriptor {
         font-size: 20px;
     }
 }
