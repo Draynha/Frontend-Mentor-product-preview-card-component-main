@@ -129,6 +129,39 @@ button:hover{
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 375px) {
+   
+    .cat {
+        font-size: 14px;
+    }
+    
+    .titlePerfume {
+        font-size: 20px;
+    }
+    
+    .descriptor{
+        font-size: 14px;
+    }
+
+    #promo{
+        font-size: 18px;
+    }
+    
+    #realPrice{
+        margin-left: 8px;
+        font-size: 10px;
+    }
+
+    button{
+        font-size: 12px;
+        background-color: #4D7864;
+        /* haut | droit | bas | gauche */
+        padding: 10px 40px 10px 40px;
+    }
+
+}
+
 @media screen and (min-width: 740px) {
     .container {
         grid-template-columns: repeat(2, 1fr);
